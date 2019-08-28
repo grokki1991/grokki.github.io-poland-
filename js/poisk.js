@@ -1,10 +1,3 @@
-// ---- Форма поиска
-var poisk = document.getElementById('nav-btn');
-poisk.onclick = function() {
-	var textInput = document.getElementById('nav-text');
-	textInput.style.display = "block";
-	// var hideMunu = document.querySelector('.nav-menu ul');
-}
 
 // ---- Бургер-меню
 document.getElementById('burger').onclick = burger;
