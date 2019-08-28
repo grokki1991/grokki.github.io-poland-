@@ -1,0 +1,188 @@
+@media screen and (max-width: 1200px) {
+
+.offers-box:nth-child(4),
+.offers-box:nth-child(5) {
+	display: block;
+}
+}
+
+.places{
+	grid-template-columns: repeat(2, 1fr);
+}
+}
+
+@media screen and (max-width: 1020px) {
+
+.city-box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.city-text {
+	padding-bottom: 40px;
+}
+}
+
+@media screen and (max-width: 1020px) {
+
+.city-box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.city-text {
+	padding-bottom: 40px;
+}
+}
+
+/*@media screen and (max-width: 885px) {
+
+.offers-box:nth-child(4),
+.offers-box:nth-child(5) {
+	display: none;
+}
+}
+*/
+
+@media screen and (max-width: 885px) {
+
+.buttons {
+	display: block;
+	top: 190px;
+}
+
+.offers {
+	justify-content: center;
+	position: static;
+}
+
+.offers-box {
+	position: absolute;
+	width: 371px;
+}
+
+.offers-text{
+	display: block;
+}
+}
+
+
+@media screen and (max-width: 835px) {
+
+h1 {
+	font-size: 50px;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 35px 35px 260px 35px;
+}
+
+.nav ul {
+	flex-direction: column;
+}
+
+.nav ul li {
+	padding-right: 0;
+	padding-bottom: 30px;
+}
+
+.burger {
+	display: flex;
+}
+
+.list-menu,
+.list-poisk {
+	display: none;
+}
+
+.search-form {
+	width: 100%;
+	padding: 0 20px 30px 20px;
+}
+
+.places{
+	grid-template-columns: repeat(1, 1fr);
+}
+
+.places {
+	padding: 0 10px;
+}
+
+}
+
+@media screen and (max-width: 615px) {
+
+.buttons {
+	top: 190px;
+}
+
+.offers {
+	overflow: hidden;
+	justify-content: center;
+	position: static;
+}
+
+.offers-box {
+	position: absolute;
+}
+
+.offers-box img {
+	height: 377px;
+}
+
+.search-tag {
+	flex-direction: column;
+	align-items: center;
+}
+
+.tag-left {
+	padding-bottom: 10px;
+}
+
+.places-box {
+	width: 100%;
+}
+
+.city-text p {
+	width: 100%;
+}
+}
+
+@media screen and (max-width: 375px) {
+
+.prev {
+	left: 10px;
+}
+
+.next {
+	right: 10px;
+}
+
+.offers {
+	overflow: hidden;
+	justify-content: center;
+	position: static;
+}
+
+.offers-box {
+	width: 320px;
+}
+}
+
+@media screen and (max-width: 350px) {
+
+.offers {
+	overflow: hidden;
+	justify-content: center;
+	position: static;
+}
+
+.offers-box {
+	position: absolute;
+	width: 300px;
+}
+}
