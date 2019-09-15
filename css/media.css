@@ -71,6 +71,12 @@
 
 @media screen and (max-width: 835px) {
 
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 h1 {
 	font-size: 50px;
 }
@@ -78,7 +84,19 @@ h1 {
 .nav {
 	display: flex;
 	justify-content: space-between;
-	padding: 35px 35px 260px 35px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	padding: 0;
+	z-index: 10;
+
+}
+
+.logo {
+	display: inline-block;
+	background: #4b7b2e78;
+	padding: 10px 15px;
+	border-radius: 10px;
 }
 
 .nav ul {
@@ -87,7 +105,19 @@ h1 {
 
 .nav ul li {
 	padding-right: 0;
+}
+
+.nav ul li:not(:last-child) {
 	padding-bottom: 30px;
+}
+
+.nav-menu {
+	position: absolute;
+    right: 0;
+    top: 0;
+    background: #4b7b2e78;
+    padding: 26px 20px;
+    border-radius: 10px;
 }
 
 .burger {
