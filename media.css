@@ -1,0 +1,128 @@
+@media screen and (max-width: 930px) {
+.points {
+	top: 30px;
+	left: 10px;
+}
+
+.lives {
+	top: 30px;
+	right: 10px;
+}
+}
+
+@media screen and (max-height: 670px) {
+
+* {
+	font-size: 20px;
+}
+
+.theme-text {
+	margin: 20px 0;
+}
+
+.info {
+	flex-direction: column;
+	margin-bottom: 30px;
+	font-size: 20px;
+}
+
+.text {
+	padding: 7px 10px;
+}
+
+.text-btn {
+	padding: 7px 10px;
+}
+}
+
+@media screen and (max-height: 615px) {
+* {
+	font-size: 18px;
+}
+
+.picture img{
+	width: 150px;
+	height: auto;
+}
+
+.theme-text {
+	margin: 15px 0;
+}
+
+.this-theme {
+	padding: 7px 10px;
+	margin: 7px 7px;
+}
+
+.guess {
+	font-size: 40px;
+}
+
+.guess:first-letter {
+	font-size: 55px;
+	color: #dfff35;
+}
+
+.info {
+	margin-bottom: 30px;
+	font-size: 18px;
+}
+
+}
+
+
+@media screen and (max-height: 580px) {
+* {
+	font-size: 16px;
+}
+
+.guess {
+	font-size: 30px;
+}
+
+.guess:first-letter {
+	font-size: 45px;
+	color: #dfff35;
+}
+
+.theme-text {
+	margin: 10px 0;
+}
+
+.info {
+	margin-bottom: 30px;
+}
+
+.out {
+	margin-bottom: 30px;
+}
+
+.lives {
+	font-size: 15px;
+}
+}
+
+@media screen and (max-height: 525px) {
+.picture2 img {
+	width: 80px;
+}
+}
+
+@media screen and (max-height: 470px) {
+.picture img {
+	width: 130px;
+}
+
+.theme-box {
+	margin: 10px;
+}
+
+.this-theme {
+	padding: 5px 10px;
+
+}
+
+.info {
+	margin-bottom: 20px;
+}
+}
